@@ -1,0 +1,29 @@
+Docker Basics
+Docker is an open-source platform that allows developers to package applications and their dependencies into lightweight containers. Containers make applications portable and consistent across different environments.
+A Docker container includes everything needed to run an application, including libraries, runtime, configuration files, and dependencies.
+Docker Images
+A Docker image is a read-only template used to create containers.
+Important points:
+Docker Containers
+A container is a running instance of a Docker image.
+Containers are isolated from each other while sharing the host operating system kernel.
+Advantages:
+Docker Volumes
+Volumes are used to store persistent data outside containers.
+Even if a container is deleted, the data stored inside a volume remains available.
+Volumes are commonly used for databases, uploaded files, and application logs.
+Docker Networking
+Docker provides networking so containers can communicate with each other.
+Network types include:
+Bridge networking is the default mode used by Docker.
+Docker Compose
+Docker Compose allows multiple containers to be defined and managed using a single YAML file.
+Instead of starting each container manually, developers can use one command to start the entire application stack.
+Compose is commonly used for web applications that require multiple services such as a frontend, backend, and database.
+Kubernetes
+Kubernetes is a container orchestration platform.
+It automates deployment, scaling, monitoring, and management of containers across multiple machines.
+Docker and Kubernetes are often used together in production systems.
+On July 7th i learned about RAG and Implemented SeconBrain project
+July 7th was fun for me
+July 7th Mahi ka bday bhi hai but the important thing is i learned about rag 
